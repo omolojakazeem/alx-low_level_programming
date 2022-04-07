@@ -1,9 +1,11 @@
 #include<stdio.h>
 
 /**
-* This program uses the puts command to print
+* main - Entry point
+*
+* Return: Always 0 (Success)
 */
-int main(void)
+void main(void)
 {
 	char intro[] = "\"Programming is like building a multilingual puzzle";
 
