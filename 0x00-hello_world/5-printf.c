@@ -9,6 +9,6 @@ int main(void)
 {
 	char intro[] = "with proper grammar, but the outcome is a piece of art,";
 
-	printf(intro);
+	printf("%s", intro);
 	return (0);
 }
