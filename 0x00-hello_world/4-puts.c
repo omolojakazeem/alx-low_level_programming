@@ -5,7 +5,7 @@
 *
 * Return: Always 0 (Success)
 */
-void main(void)
+int main(void)
 {
 	char intro[] = "\"Programming is like building a multilingual puzzle";
 
