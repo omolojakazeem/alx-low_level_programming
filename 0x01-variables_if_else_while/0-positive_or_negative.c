@@ -26,5 +26,5 @@ int main(void)
 			printf("%u is positive", n);
 		}
 	}
-	return (0)
+	return (0);
 }
