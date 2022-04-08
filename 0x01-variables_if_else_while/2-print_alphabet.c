@@ -14,5 +14,6 @@ int main(void)
 	{
 		putchar(c);
 	}
+	putchat("");
 	return (0);
 }
