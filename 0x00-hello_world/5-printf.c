@@ -7,7 +7,7 @@
  */
 int main(void)
 {
-	char intro[] = "with proper grammar, but the outcome is a piece of art, ";
+	char intro[] = "with proper grammar, but the outcome is a piece of art,\n";
 
 	printf("%s", intro);
 	return (0);
