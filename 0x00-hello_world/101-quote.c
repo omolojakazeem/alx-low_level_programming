@@ -7,7 +7,7 @@
  */
 int main(void)
 {
-	cout("and that piece of art is useful\" - Dora Kprpar, 2015-10-19\n");
+	printf("and that piece of art is useful\" - Dora Kprpar, 2015-10-19\n");
 
 	return (1);
 }
