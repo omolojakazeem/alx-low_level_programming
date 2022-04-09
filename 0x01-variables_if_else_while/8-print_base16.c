@@ -13,9 +13,9 @@ int main(void)
 
 	for (a = 0; a < 10; a++)
 	{
-		putchar(a);
+		putchar("%d", a);
 	}
-	for (b = 'A'; b <= 'F'; b++)
+	for (b = 'a'; b <= 'f'; b++)
 	{
 		putchar(b);
 	}
