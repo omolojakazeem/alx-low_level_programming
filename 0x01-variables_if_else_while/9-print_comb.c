@@ -9,16 +9,12 @@
 int main(void)
 {
 	int a;
-	int b;
 
 	for (a = 48; a <= 57; a++)
 	{
 		putchar(a);
-		for (b = 48; b <= 57; b++)
-		{
-			putchar(b);
-		}
 		putchar(',');
+		putchar(' ');
 	}
 	return (0);
 }
