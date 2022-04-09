@@ -9,15 +9,14 @@
 int main(void)
 {
 	int a;
-	int b;
 
-	for (a = 0; a < 10; a++)
+	for (a = 48; a <= 57; a++)
 	{
 		putchar(a);
 	}
-	for (b = 'a'; b <= 'f'; b++)
+	for (a = 97; a <= 102; a++)
 	{
-		putchar(b);
+		putchar(a);
 	}
 	putchar('\n');
 	return (0);
