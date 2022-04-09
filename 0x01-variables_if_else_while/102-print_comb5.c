@@ -10,18 +10,18 @@ int main(void)
 {
 	int a, b;
 
-	for (a = 48; a <= 57; a++)
+	for (a = 0; a <= 99; a++)
 	{
-		for (b = 48; b <= 57; b++)
+		for (b = 0; b <= 99; b++)
 		{
 			if (a != b)
 			{
-				putchar(a / 10);
-				putchar(a % 10);
+				putchar((a / 10) + 48);
+				putchar((a % 10) + 48);
 				putchar(' ');
-				putchar(b / 10);
-				putchar(b % 10);
-				if (a != 146 || b != 147)
+				putchar((b / 10) + 48);
+				putchar((b % 10) + 48);
+				if (a != 98 || b != 99)
 				{
 					putchar(',');
 					putchar(' ');
