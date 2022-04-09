@@ -8,13 +8,14 @@
  */
 int main(void)
 {
-	int a, b;
+	int a = 0, b;
 
-	for (a = 0; a <= 99; a++)
+	while (a <= 99)
 	{
-		for (b = 0; b <= 99; b++)
+		b = a;
+		while (b <= 99)
 		{
-			if (a != b)
+			if (b != a)
 			{
 				putchar((a / 10) + 48);
 				putchar((a % 10) + 48);
@@ -27,8 +28,11 @@ int main(void)
 					putchar(' ');
 				}
 			}
+			++b;
 		}
+		++a;
 	}
 	putchar('\n');
 	return (0);
 }
+
