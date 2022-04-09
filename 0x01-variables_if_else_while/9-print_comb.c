@@ -8,13 +8,14 @@
  */
 int main(void)
 {
-	int a;
+	int a = 48;
 
-	for (a = 48; a <= 57; a++)
+	while (a <= 57)
 	{
 		putchar(a);
 		putchar(',');
 		putchar(' ');
+		a++;
 	}
 	return (0);
 }
