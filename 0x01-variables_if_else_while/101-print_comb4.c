@@ -14,9 +14,9 @@ int main(void)
 	{
 		for (b = 49; b <= 56; b++)
 		{
-			if (a != b && a < b && b != c && b < c)
+			for (c = 50; c <= 57 c++)
 			{
-				for (c = 50; c <= 57; c++)
+				if (a != b && a < b && b != c && b < c)
 				{
 					putchar(a);
 					putchar(b);
@@ -26,6 +26,7 @@ int main(void)
 						putchar(',');
 						putchar(' ');
 					}
+					i
 				}
 			}
 		}
