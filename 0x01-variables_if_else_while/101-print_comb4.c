@@ -14,20 +14,17 @@ int main(void)
 	{
 		for (b = 49; b <= 56; b++)
 		{
-			if (a != b && a < b)
+			if (a != b && a < b && b != c && b < c)
 			{
 				for (c = 50; c <= 57; c++)
 				{
-					if (b != c && b < c)
+					putchar(a);
+					putchar(b);
+					putchar(c);
+					if (a + b + c != 168)
 					{
-						putchar(a);
-						putchar(b);
-						putchar(c);
-						if (a + b + c != 168)
-						{
-							putchar(',');
-							putchar(' ');
-						}
+						putchar(',');
+						putchar(' ');
 					}
 				}
 			}
@@ -36,4 +33,3 @@ int main(void)
 	putchar('\n');
 	return (0);
 }
-
