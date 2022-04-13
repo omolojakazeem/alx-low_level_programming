@@ -3,9 +3,8 @@
 /**
  * _islower - Checks if an input is lowercase
  *
- * return: 0 - is lower
- * return: 1 - if not
- * i - Integert parameter
+ * Return: (0) - is lower (1) if not
+ * @i: Integert parameter
  */
 int _islower(int i)
 {
