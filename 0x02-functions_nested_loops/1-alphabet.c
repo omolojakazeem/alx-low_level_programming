@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * main - Entry point
+ * print_alphabet - Function to print alphabet
+ * return: Always 0
  *
- * Return: Always 0 (Success)
  */
-int main(void)
+int print_alphabet(int i)
 {
 	int i = 97;
 
@@ -15,5 +15,4 @@ int main(void)
 		i++;
 	}
 	_putchar('\n');
-	return (0);
 }
