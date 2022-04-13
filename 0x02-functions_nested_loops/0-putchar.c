@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * Main - Entry point
+ * main - Entry point
  *
  * Description: Prints _putchar using putchar prototypr
  *
@@ -12,7 +12,7 @@ int main(void)
 	char ch[8] = "_putchar";
 	int i = 0;
 
-	while (i <= 8)
+	while (i <= 7)
 	{
 		_putchar(ch[i]);
 		i++;
