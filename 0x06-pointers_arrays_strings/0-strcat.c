@@ -11,8 +11,8 @@ char *_strcat(char *dest, char *src)
 {
 	int csize, csize2;
 
-	c = 0;
-	while (dest[c])
+	csize = 0;
+	while (dest[csize])
 	{
 		csize++;
 	}
