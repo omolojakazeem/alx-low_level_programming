@@ -13,7 +13,7 @@ char *leet(char *s)
 	int ul[] = {65, 69, 79, 84, 76};
 	int n[] = {52, 51, 48, 55, 49};
 
-	while (s[c] != '\n')
+	while (s[c] != '\0')
 	{
 		for (i = 0; i < 5; i++)
 		{
