@@ -5,7 +5,7 @@
  * @src: pointer to source input
  * @n: most number of bytes from the source
  *
- * Return - @dest address
+ * Return: @dest address
  */
 
 char *_strncat(char *dest, char *src, int n)
