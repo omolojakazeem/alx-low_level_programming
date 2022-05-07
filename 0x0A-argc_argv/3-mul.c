@@ -53,7 +53,7 @@ int main(int argc, char **argv)
 		printf("Error\n");
 		return (0);
 	}
-	printf("d\n", fc_check(argv[1]) * fc_check(argv[2]));
+	printf("%d\n", fc_check(argv[1]) * fc_check(argv[2]));
 	return (0);
 }
 
