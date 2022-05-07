@@ -18,7 +18,7 @@ int fc_check(const char *str)
 		++str;
 	}
 	sign = *str == '-' ? -1 : 1;
-	if (sign == 1 || *str == '+')
+	if (sign == -1 || *str == '+')
 	{
 		++str;
 	}
