@@ -54,7 +54,7 @@ int main(int argc, char **argv)
 		printf("\n");
 		return (0);
 	}
-	for (i = 0; i < argc; ++i)
+	for (i = 1; i < argc; ++i)
 	{
 		a = fc_check(argv[i]);
 		if (a >= 0)
