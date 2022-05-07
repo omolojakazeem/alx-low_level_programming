@@ -9,8 +9,10 @@
 
 int fc_check(const char *str)
 {
-	int n = 0;
+	int n;
 	int sign;
+
+	n = 0;
 
 	while (*str == ' ' || *str == '\t' || *str == '\v' || *str == '\r' ||
 			*str == '\n' || *str == '\f')
@@ -46,8 +48,7 @@ int fc_check(const char *str)
  */
 int main(int argc, char **argv)
 {
-	int i, a;
-	int sum = 0;
+	int i, sum = 0, a;
 
 	if (argc == 1)
 	{
